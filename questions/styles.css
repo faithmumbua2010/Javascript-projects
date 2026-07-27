@@ -161,6 +161,7 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+    max-width: var(--fixed-width);
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -186,9 +187,7 @@ Questions
   font-family: "Great Vibes", cursive;
   text-align: center;
 }
-.section-center {
-  max-width: var(--fixed-width);
-}
+
 .question {
   background: var(--clr-white);
   border-radius: var(--radius);
